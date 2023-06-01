@@ -9,13 +9,19 @@ body {
     background-color: #1F2937;
   }
 
-.header {
+.header, .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 16px;
     padding: 16px;
 
+}
+
+.footer {
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
