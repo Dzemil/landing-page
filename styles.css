@@ -3,3 +3,18 @@
     justify-content: space-between;
     padding: 0 16px;
 }
+
+.links {
+    list-style-type: none;
+    display: flex;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+  }
