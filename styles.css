@@ -17,7 +17,6 @@ body {
 .links {
     list-style-type: none;
     display: flex;
-    align-items: center;
     gap: 8px;
   }
 
