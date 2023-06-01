@@ -57,10 +57,31 @@ h1 {
     width: auto;
     height: 300px;
   }
-.cards {
+.cards, .call {
     background-color: white;
 }
 
 .quote {
     background-color: #e5e7eb;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #1F2937;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 10px;
+}
+
+.card-img {
+    width: 50px;
+    height: 50px;
 }
