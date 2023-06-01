@@ -7,15 +7,14 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    padding: 0 32px;
   }
 
 .header, .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 16px;
-    padding: 16px;
-
+    padding: 16px 0;
 }
 
 .footer {
@@ -36,5 +35,22 @@ body {
 
   a {
     text-decoration: none;
+    color: inherit;
   }
 
+  .this-site {
+    min-height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+  img {
+    width: auto;
+    height: 200px;
+  }
