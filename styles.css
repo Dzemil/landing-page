@@ -41,9 +41,14 @@ body {
   .this-site {
     min-height: 200px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
   }
+
+.left-side, .right-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 h1 {
     font-size: 48px;
