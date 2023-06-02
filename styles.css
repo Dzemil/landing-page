@@ -134,6 +134,9 @@ h1 {
     background-color: #3882f6;
     justify-content: space-around;
     align-items: center;
-    padding: 8px;
     border-radius: 1%;
+}
+
+.calling {
+    padding: 32px;
 }
