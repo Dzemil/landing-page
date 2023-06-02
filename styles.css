@@ -88,26 +88,33 @@ h1 {
 .cards {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
     color: #1F2937;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 0 16px;
+    max-width: 200px;
+    text-align: center;
 }
 
 .card-img {
-    width: 100px;
-    height: 100px;
+    height: 150px;
+    width: auto;
+
 }
 
-.quote {
+.quote.container {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.quote-div {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
 }
 
 .quote-text {
@@ -117,7 +124,6 @@ h1 {
 }
 
 .author {
-    align-self: flex-end;
     color:#1F2937;
     font-size: 24px;
     font-style: italic;
